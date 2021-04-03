@@ -6,6 +6,7 @@ DESCRIPTION:    Script to quickly perform bulk pattern matching against set of f
 USAGE:          'python bindlogsearch.py'
 
 """
+
 __author__='Donald R. Whitfield'
 __status__='Development'
 __copyright__='S-Box Security, LLC'
@@ -33,3 +34,6 @@ with open(output_filename, "w") as out_file:
                                                         out_file.write(line)
                         except (IOError, OSError):  # ignore read and permission errors
                                 pass
+
+
+
